@@ -14,26 +14,10 @@ A RESTful API built with ASP.NET Core and Entity Framework Core for managing cou
 
 1. Clone or extract the project folder
 2. Navigate into the project directory:
-```
-   cd CourseManagementAPI
-```
 3. Restore dependencies:
-```
-   dotnet restore
-```
 4. Apply database migrations:
-```
-   dotnet ef database update
-```
 5. Run the API:
-```
-   dotnet run
-```
-6. The API will be available at:
-```
-   http://localhost:5007
-```
-
+6. The API will be available at: http://localhost:5007
 ---
 
 ## Technologies Used
@@ -64,9 +48,6 @@ The API uses JWT authentication. To access protected endpoints:
 1. Send a POST request to `/api/Auth/login` with valid credentials
 2. Copy the token from the response
 3. Include it in the `Authorization` header of subsequent requests:
-```
-   Authorization: Bearer <your_token>
-```
 
 ### Test credentials
 - Email: `admin@uni.com`
